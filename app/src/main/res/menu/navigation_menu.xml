@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/ngay"
+        android:title="Work in the day"
+        android:icon="@drawable/ic_action_name"/>
+    <item
+        android:id="@+id/tuan"
+        android:title="Work in the week"
+        android:icon="@drawable/ic_action_name"/>
+    <item
+        android:id="@+id/thang"
+        android:title="Work in the month"
+        android:icon="@drawable/ic_action_name"/>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/ic_action_about"/>
+    <item
+        android:id="@+id/weather"
+        android:title="Weather"
+        android:icon="@drawable/icon_weather"/>
+</menu>
+    </item>
+
+</menu>

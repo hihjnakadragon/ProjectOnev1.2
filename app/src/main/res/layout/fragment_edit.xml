@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+
+
+    >
+
+    <Button
+        android:layout_width="30dp"
+        android:id="@+id/buttonx"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimaryDark"
+        android:drawableTop="@drawable/dauxxxx"
+
+
+        />
+    <Button
+        android:layout_width="30dp"
+        android:id="@+id/buttondelete"
+        android:layout_height="30dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:drawableTop="@drawable/ic_action_delete"
+
+
+
+        />
+
+    <Button
+        android:id="@+id/buttonsave"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/save_icon"
+        android:layout_marginLeft="340dp"
+
+        />
+    <TextView
+        android:id="@+id/title"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+        android:textColor="#ffff"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        android:text="Title"/>
+    <EditText
+        android:id="@+id/job"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#ffff"
+        android:text="Go for a walk"
+        />
+    <RelativeLayout
+        android:layout_marginTop="160dp"
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_height="360dp"
+        >
+
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/ic_action_addnc"
+
+            />
+        <EditText
+            android:layout_marginTop="18dp"
+            android:id="@+id/textViewadd"
+            android:layout_marginLeft="70dp"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Add notification content"
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_action_now"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"/>
+        <TextView
+            android:layout_marginTop="81dp"
+            android:id="@+id/textViewnow"
+            android:layout_marginLeft="70dp"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Now"
+
+            />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_action_today"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"/>
+        <TextView
+            android:layout_marginTop="141dp"
+            android:id="@+id/textViewtoday"
+            android:layout_marginLeft="70dp"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Today"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_action_defaulticon"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"/>
+        <TextView
+            android:layout_marginTop="201dp"
+            android:id="@+id/textViewdefaulticon"
+            android:layout_marginLeft="70dp"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Default icon"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_action_defaultcolour"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="260dp"/>
+        <TextView
+            android:layout_marginTop="261dp"
+            android:id="@+id/textViewdefaultcolour"
+            android:layout_marginLeft="70dp"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:hint="Default colour"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
